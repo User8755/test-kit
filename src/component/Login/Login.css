@@ -1,0 +1,38 @@
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 25px;
+}
+
+.form_login {
+  display: flex;
+  flex-direction: column;
+  padding: 5px 5px 15px;
+  width: 320px;
+  margin: 50px auto 0;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+
+.form_login-title {
+  margin: 0 0 10px;
+  text-align: center;
+}
+
+.form_login-label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  row-gap: 4px;
+}
+
+.form_login-input {
+  padding: 5px;
+}
+
+.form_login-error {
+  font-size: 12px;
+  color: red;
+  min-height: 42px;
+}

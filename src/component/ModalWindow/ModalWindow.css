@@ -1,0 +1,71 @@
+.modal__overlay {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(51, 64, 75, 0.774);
+  color: rgba(66, 83, 97, 1);
+  position: fixed;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal__overlay-disabled {
+  display: none;
+}
+
+.modal__window {
+  padding: 20px;
+  width: fit-content;
+  height: fit-content;
+  background-color: #fff;
+  border-radius: 4px;
+  position: relative;
+  max-height: 80vh;
+}
+
+.button_close {
+  position: absolute;
+  top: -23px;
+  right: -30px;
+  width: 22px;
+  height: 22px;
+  border: none;
+  background-color: transparent;
+  background-image: url('../../untils/img/dark-blue-icon-close.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+}
+
+.modal__form {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal__form_title {
+  margin: 0 0 5px 0;
+}
+
+.modal__form_info {
+  margin-bottom: 5px;
+  font-size: 17px;
+}
+
+.modal__form_input-file {
+  max-width: 324px;
+  margin-bottom: 4px;
+}
+
+.modal__form_error {
+  font-size: 14px;
+  color: red;
+  height: 19px;
+  margin-bottom: 4px;
+}
+
+.button_close-bottom {
+  cursor: pointer;
+  margin-top: 15px;
+  width: 100%;
+}
